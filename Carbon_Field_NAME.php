@@ -9,8 +9,8 @@ class Carbon_Field_{{FIELD_NAME}} extends Carbon_Field {
 	/**
 	 * to_json()
 	 * 
-	 * Returns an array that holds the field data, suitable for JSON representation.
-	 * This data will be available in the Underscore template and the Backbone Model.
+	 * You can use this method to modify the field properties that are added to the JSON object.
+	 * The JSON object is used by the Backbone Model and the Underscore template.
 	 * 
 	 * @param bool $load  Should the value be loaded from the database or use the value from the current instance.
 	 * @return array
