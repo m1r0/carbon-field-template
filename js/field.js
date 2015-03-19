@@ -10,7 +10,7 @@ window.carbon = window.carbon || {};
 
 	/*
 	|--------------------------------------------------------------------------
-	| {{FIELD_NAME}} Field MODEL
+	| FIELD_NAME Field MODEL
 	|--------------------------------------------------------------------------
 	|
 	| This class represents the model for the field.
@@ -22,7 +22,7 @@ window.carbon = window.carbon || {};
 	|  - access control
 	|
 	*/
-	carbon.fields.Model.{{FIELD_NAME}} = carbon.fields.Model.extend({
+	carbon.fields.Model.FIELD_NAME = carbon.fields.Model.extend({
 		/*
 		// Set some default values if need. They will be stored in the model attributes.
 		defaults: {
@@ -73,7 +73,7 @@ window.carbon = window.carbon || {};
 
 	/*
 	|--------------------------------------------------------------------------
-	| {{FIELD_NAME}} Field VIEW
+	| FIELD_NAME Field VIEW
 	|--------------------------------------------------------------------------
 	|
 	| Holds the field DOM interactions (rendering, error state, etc..).
@@ -86,7 +86,7 @@ window.carbon = window.carbon || {};
 	| @holder:  carbon.views[id]
 	|
 	*/
-	carbon.fields.View.{{FIELD_NAME}} = carbon.fields.View.extend({
+	carbon.fields.View.FIELD_NAME = carbon.fields.View.extend({
 		/*
 		// Add the events from the parent view and also include new ones
 		events: function() {

@@ -1,6 +1,6 @@
 <?php
 
-class Carbon_Field_{{FIELD_NAME}} extends Carbon_Field {
+class Carbon_Field_FIELD_NAME extends Carbon_Field {
 	/*
 	 * Properties
 	 */
@@ -51,10 +51,10 @@ class Carbon_Field_{{FIELD_NAME}} extends Carbon_Field {
 		$dir = plugin_dir_url(__FILE__);
 
 		# Enqueue JS
-		crb_enqueue_script('carbon-field-{{FIELD_NAME}}', $dir . 'js/field.js', array('carbon-app', 'carbon-fields'));
+		crb_enqueue_script('carbon-field-FIELD_NAME', $dir . 'js/field.js', array('carbon-fields'));
 
 		# Enqueue CSS
-		crb_enqueue_style('carbon-field-{{FIELD_NAME}}', $dir . 'css/field.css');
+		crb_enqueue_style('carbon-field-FIELD_NAME', $dir . 'css/field.css');
 	}
 
 	/**
