@@ -34,9 +34,9 @@ class Carbon_Field_FIELD_NAME extends Carbon_Field {
 		?>
 		<input id="{{{ id }}}" type="text" name="{{{ name }}}" value="{{ value }}" class="regular-text" />
 
-		<% if (example_property) { %>
+		<# if (example_property) { #>
 			<p>This is an example.</p>
-		<% } %>
+		<# } #>
 		<?php
 	}
 
